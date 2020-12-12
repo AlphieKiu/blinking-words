@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { data } from '../assets/data.js'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blinking-words';
+  text = data.text;
 }
